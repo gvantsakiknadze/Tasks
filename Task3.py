@@ -10,18 +10,3 @@ def isProperly(sequence):
     if counter == 0:
         return True
     return False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
