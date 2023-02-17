@@ -9,11 +9,11 @@ def countWays(n, steps):
     for i in range(2,n+1):
         if steps[i-1] == 1:
             lst.append(lst[i-1]+lst[i-2])
-            print(lst)
         else:
             lst.append(0)
 
     return lst[n]+lst[n-1]
+
 
 
 print(countWays(5,[1, 1, 0, 1, 1]))
